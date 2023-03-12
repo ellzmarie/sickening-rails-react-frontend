@@ -1,70 +1,53 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sickening Hunties
 
-## Available Scripts
+### Sickening Hunties is a full CRUD events application for all things drag! 
 
-In the project directory, you can run:
+#### ![sickening1](./img/loop3.png)
+#### ![sickening2](./img/loop3.png)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Technologies Used:
+#### 1. Ruby on Rails
+#### 2. React
+#### 3. Postgresql
+#### 4. VS. CODE
+#### 5. Trello
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### Links
+Feel free to [click here to view the live site](). You can view additional links below:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Trello BOARD: https://trello.com/b/HsiSEePZ/sickening-hunties
+#### Frontend Link: 
+#### Backend Link: 
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### User Stories 
+#### 1. 
+#### 2. 
+#### 3. 
+#### 4. 
+#### 5. 
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Wireframes 
+#### ![wireframe1](img/wireframe1.png)
+#### ![wireframe2](img/wireframe2.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### ERD Diagram 
+#### ![](img/Screen%20Shot%202023-01-20%20at%209.32.13%20PM.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Future Enhancements: 
+#### 1. Ability to filter posts by locations, dates and specific events.
+#### 2. Add authentication. 
+#### 3. An expanded Menu option for drags to find specific drags in a location.
+#### 4. Build a safe space for the LGBTQ+ community to connect and communicate with one another.
+#### 5. Have a heart or like button and comment section for each event.
