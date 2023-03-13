@@ -1,13 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Bebas+Neue&family=Poppins:ital@0;1&family=Staatliches&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Abril Fatface';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  height: 4em;
+  background-color: #ffd4e5;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.app-title {
+  display: flex;
+}
+
+.app-name {
+  font-size: xx-large;
+}
+
+p {
+  margin-top: .5em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.stock-kawaii-app-icon {
+  height: 3em;
+  margin-right: .5em;
+}
+
+.create-link {
+  height: 30px;
+  margin-left: auto;
+}
+
+.create-link-container {
+  margin-left: auto
+}
+
+.banner {
+  height: 24em;
+  background-image:  url('../img/discoballs-dragevent.jpeg');  
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 5em;
+}
+
+.promo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.snowpad {
+  color:rgb(0, 0, 0);
+  display: inline-flex;
+  font-size: medium;
+  flex-direction: column;
+  justify-content: space-around;
+  height:17%;
+  width: 28%;
+  border: 5px solid rgb(246, 177, 209);
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.create-page {
+  height: 21em;
+  display: flex;
+}
+
+.snowpad-show {
+  display: flex;
+  flex-direction: column ;
+}
+
+.show-form {
+  margin-left: 43%;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.snowpad-image-show {
+  display: flex;
+  margin-left:33%;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.show-info {
+  margin-left: 38%
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px 5px 5px 80px;
+}
+
+.row {
+  background-color: rgb(246, 177, 209);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #9c84c2;
+  color: white;
 }

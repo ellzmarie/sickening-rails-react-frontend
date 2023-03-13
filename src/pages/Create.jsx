@@ -21,7 +21,7 @@ function Create(props) {
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        props.createSnowpads(newForm)
+        props.createDragEvents(newForm)
        
         setNewForm({
             event_title: "",

@@ -9,10 +9,10 @@ function Header(props) {
       </Link>
     </nav>
 
-    <div className="topnav">
+    {/* <div className="topnav">
       <Link to="#">home</Link>
 
-    </div>
+    </div> */}
     </>
   )
 }
