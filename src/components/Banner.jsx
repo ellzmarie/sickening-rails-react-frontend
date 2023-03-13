@@ -3,12 +3,12 @@ function Banner(props) {
         <div className="banner">
             <div className="about">
                 <h1>
-                   DRAG QUEEN EVENTS NEAR YOU  
+                   DRAG SHOW EVENTS NEAR YOU  
                 </h1>
             </div>
             <div className="promo">
                 <h2>
-                    Lead with LOVE
+                    l e a d w i t h l o v e 
                 </h2>
                 <h3>
                     
