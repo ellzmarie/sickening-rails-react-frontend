@@ -1,12 +1,12 @@
-import { useState } from "react"
+import { React, useState } from "react"
 import { Link } from 'react-router-dom'
 
 function Index(props) {
-  const [newForm, setNewForm] = useState({
-    event_title: "",
-    image: "",
-    description: ""
-  })
+  // const [newForm, setNewForm] = useState({
+  //   event_title: "",
+  //   image: "",
+  //   description: ""
+  // })
 
   const loaded = () => {
     return props.dragEvent.map((dragEvent) => (
@@ -16,28 +16,28 @@ function Index(props) {
           <h1>{dragEvent.name}</h1>
         </Link>
 
-        <img src={dragEvent.image} />
+        <img className="dragEvent-image" src={dragEvent.image} alt=""/>
         <h3>{dragEvent.event_title}</h3>
       </div>
     ))
   }
   
-  const handleChange = (event) => {
-    setNewForm((prevState) => ({
-      ...prevState,
-      [event.target.name]: event.target.value,
-    }))
-  }
+  // const handleChange = (event) => {
+  //   setNewForm((prevState) => ({
+  //     ...prevState,
+  //     [event.target.name]: event.target.value,
+  //   }))
+  // }
 
-  const handleSubmit = (event) => {
-    event.preventDefault()
-    props.createDragEvents(newForm)
-    setNewForm({
-      event_title: "",
-      image: "",
-      description: "",
-    })
-  }
+  // const handleSubmit = (event) => {
+  //   event.preventDefault()
+  //   props.createDragEvents(newForm)
+  //   setNewForm({
+  //     event_title: "",
+  //     image: "",
+  //     description: "",
+  //   })
+  // }
 
   const loading = () => {
     return <h1>Loading...</h1>
@@ -45,7 +45,7 @@ function Index(props) {
 
   return (
     <section>
-      <form onSubmit={handleSubmit}>
+      {/* <form onSubmit={handleSubmit}>
         <input
           type="text"
           value={newForm.event_title}
@@ -68,7 +68,7 @@ function Index(props) {
           onChange={handleChange}
         />
         <input type="submit" value="Create Event" />
-      </form>
+      </form> */}
       {props.dragEvents ? loaded() : loading()}
     </section>
   )
