@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function Header(props) {
   return (
-    <nav className="nav">
+    <nav className="header">
       <Link to="/">
         <div>Sickening Hunties App</div>
       </Link>

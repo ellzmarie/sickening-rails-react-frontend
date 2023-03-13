@@ -9,15 +9,15 @@ function Index(props) {
   })
 
   const loaded = () => {
-    return props.people.map((person) => (
-      <div key={person._id} className="person">
+    return props.dragEvent.map((dragEvent) => (
+      <div key={dragEvent._id} className="dragEvent">
 
-        <Link to={`/people/${person._id}`}>
-          <h1>{person.name}</h1>
+        <Link to={`/dragEvent/${dragEvent._id}`}>
+          <h1>{dragEvent.name}</h1>
         </Link>
 
-        <img src={person.image} alt={person.name} />
-        <h3>{person.title}</h3>
+        <img src={dragEvent.image} alt={dragEvent.name} />
+        <h3>{dragEvent.title}</h3>
       </div>
     ))
   }
@@ -31,11 +31,11 @@ function Index(props) {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    props.createPeople(newForm)
+    props.createDragEvents(newForm)
     setNewForm({
       name: "",
       image: "",
-      title: "",
+      description: "",
     })
   }
 
@@ -63,13 +63,13 @@ function Index(props) {
         <input
           type="text"
           value={newForm.title}
-          name="title"
-          placeholder="title"
+          name="description"
+          placeholder="description"
           onChange={handleChange}
         />
-        <input type="submit" value="Create Person" />
+        <input type="submit" value="Create Event" />
       </form>
-      {props.people ? loaded() : loading()}
+      {props.dragEvents ? loaded() : loading()}
     </section>
   )
 }
