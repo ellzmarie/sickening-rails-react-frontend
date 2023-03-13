@@ -3,21 +3,21 @@ import { Link } from 'react-router-dom'
 
 function Index(props) {
   const [newForm, setNewForm] = useState({
-    name: "",
+    event_title: "",
     image: "",
-    title: ""
+    description: ""
   })
 
   const loaded = () => {
     return props.dragEvent.map((dragEvent) => (
       <div key={dragEvent._id} className="dragEvent">
 
-        <Link to={`/dragEvent/${dragEvent._id}`}>
+        <Link to={`/dragevent/${dragEvent._id}`}>
           <h1>{dragEvent.name}</h1>
         </Link>
 
-        <img src={dragEvent.image} alt={dragEvent.name} />
-        <h3>{dragEvent.title}</h3>
+        <img src={dragEvent.image} />
+        <h3>{dragEvent.event_title}</h3>
       </div>
     ))
   }
@@ -33,7 +33,7 @@ function Index(props) {
     event.preventDefault()
     props.createDragEvents(newForm)
     setNewForm({
-      name: "",
+      event_title: "",
       image: "",
       description: "",
     })
@@ -48,9 +48,9 @@ function Index(props) {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          value={newForm.name}
-          name="name"
-          placeholder="name"
+          value={newForm.event_title}
+          name="event_title"
+          placeholder="event title"
           onChange={handleChange}
         />
         <input

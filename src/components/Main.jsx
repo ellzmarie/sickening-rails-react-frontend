@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Index from "../pages/Index";
 import Show from "../pages/Show";
+import Create from "../pages/Create"
 
 function Main(props) {
   const [dragEvents, setDragEvents] = useState([])
@@ -57,7 +58,11 @@ function Main(props) {
         <Route
           exact
           path="/"
-          element={<Index dragEvents={dragEvents} createDragEvents={createDragEvents}/>} />
+          element={<Index dragEvents={dragEvents} />} />
+        <Route
+          path="/create"
+          element={<Create createDragEvents={createDragEvents}/>}
+          />
         <Route
           path="/events/:id"
           element={
