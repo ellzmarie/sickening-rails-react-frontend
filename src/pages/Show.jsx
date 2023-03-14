@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom"
 
 function Show(props) {
   const { id } = useParams();
-  const dragEvent = props.dragEvent.find((dragEvent) => dragEvent._id === id)
+  const dragEvent = props.dragEvent.find((dragEvent) => dragEvent.id === id)
   let navigate = useNavigate();
 
   const [editForm, setEditForm] = useState(dragEvent);
@@ -18,13 +18,13 @@ function Show(props) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    props.updatePeople(editForm,dragEvent._id);
+    props.updatePeople(editForm,dragEvent.id);
     // redirect people back to index
     navigate("/");
   };
 
   const removeDragEvents = () => {
-    props.deleteDragEvents(dragEvent._id);
+    props.deleteDragEvents(dragEvent.id);
     // redirect people back to index
     navigate("/")
   };

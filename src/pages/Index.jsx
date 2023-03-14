@@ -9,10 +9,10 @@ function Index(props) {
   // })
 
   const loaded = () => {
-    return props.dragEvent.map((dragEvent) => (
-      <div key={dragEvent._id} className="dragEvent">
+    return props.dragEvents.map((dragEvent) => (
+      <div key={dragEvent.id} className="dragEvent">
 
-        <Link to={`/dragevent/${dragEvent._id}`}>
+        <Link to={`/event/${dragEvent.id}`}>
           <h1>{dragEvent.name}</h1>
         </Link>
 

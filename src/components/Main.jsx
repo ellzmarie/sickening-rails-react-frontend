@@ -11,7 +11,8 @@ function Main(props) {
   const getDragEvents = async () => {
     const response = await fetch(URL)
     const data = await response.json()
-    setDragEvents(data)
+    console.log(data)
+    setDragEvents(data.events)
   }
 
   const createDragEvents = async (dragEvent) => {
