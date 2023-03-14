@@ -2,11 +2,11 @@ import { React, useState } from "react"
 import { Link } from 'react-router-dom'
 
 function Index(props) {
-  // const [form, setForm] = useState({
-  //   event_title: "",
-  //   image: "",
-  //   description: ""
-  // })
+  const [form, setNewForm] = useState({
+    event_title: "",
+    image: "",
+    description: ""
+  })
 
   const loaded = () => {
     return props.dragEvents.map((dragEvent) => (
@@ -18,6 +18,7 @@ function Index(props) {
 
         <img className="dragEvent-image" src={dragEvent.image} alt=""/>
         <h3>{dragEvent.description}</h3>
+
       </div>
     ))
   }
@@ -31,7 +32,7 @@ function Index(props) {
 
   // const handleSubmit = (event) => {
   //   event.preventDefault()
-  //   props.createDragEvents(newForm)
+  //   props.createDragEvents(setNewForm)
   //   setNewForm({
   //     event_title: "",
   //     image: "",

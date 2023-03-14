@@ -84,6 +84,7 @@ a, h3 {
   text-align: center;
   align-items: center;
   padding-top: 5em;
+  font-size: x-large;
 }
 
 .promo {
@@ -91,6 +92,7 @@ a, h3 {
   justify-content: center;
   text-align: center;
   align-items: center;
+  font-size: large;
 }
 
 section {
@@ -117,6 +119,7 @@ section {
 .create-page {
   height: 21em;
   display: flex;
+  justify-content: center;
 }
 
 .dragEvent-show {

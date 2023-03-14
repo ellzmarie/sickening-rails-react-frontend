@@ -59,7 +59,7 @@ function Create(props) {
                     onChange={handleChange}
                 />
 
-               <input type="submit" value="Create Event"  />
+               <input type="submit" value="create event"  />
             </form>
  
         </section>
