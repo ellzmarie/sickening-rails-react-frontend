@@ -4,6 +4,7 @@ import { useParams, useNavigate } from "react-router-dom"
 function Show(props) {
   const { id } = useParams();
   const dragEvent = props.dragEvents.find((dragEvent) => dragEvent.id === id)
+  
   let navigate = useNavigate();
 
   const [editForm, setEditForm] = useState(dragEvent);
