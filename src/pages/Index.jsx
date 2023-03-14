@@ -16,7 +16,7 @@ function Index(props) {
           <h1>{dragEvent.event_title}</h1>
         </Link>
 
-        <img className="dragEvent-image" src={dragEvent.image} alt=""/>
+        <img src={dragEvent.image} alt={dragEvent.event_title} className="dragEvent-image"/>
         <h3>{dragEvent.description}</h3>
 
       </div>
