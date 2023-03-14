@@ -12,7 +12,7 @@ function Show(props) {
   const handleChange = (event) => {
     setEditForm(prevState => ({
       ...prevState,
-      [event.target.name]: event.target.value
+      [event.target.name]: event.target.value,
     }));
   };
 
@@ -32,15 +32,15 @@ function Show(props) {
   return (
     <div className='dragEvent-show'>
       <div className="show-info">
-        <h1>{dragEvent.event_title}</h1>
+        <h1>{dragEvent?.event_title}</h1>
       
-        <h3>{dragEvent.description}</h3>
+        <h3>{dragEvent?.description}</h3>
         <p>Delete Item <button id="delete" onClick={removeDragEvents}>
         DELETE
         </button>
         </p>
       </div>
-      <img className="dragEvent-image-show" src={dragEvent.image} alt={dragEvent.event_title} />
+      <img className="dragEvent-image-show" src={dragEvent?.image} alt={dragEvent.event_title} />
       <form className="show-form" onSubmit={handleSubmit}>
         Name: <input
           type="text"

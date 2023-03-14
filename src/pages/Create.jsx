@@ -58,14 +58,7 @@ function Create(props) {
                     required
                     onChange={handleChange}
                 />
-                Price: <input
-                    type="text"
-                    value={newForm.price}
-                    name="price"
-                    placeholder="price"
-                    required
-                    onChange={handleChange}
-                />
+
                <input type="submit" value="Create Event"  />
             </form>
  

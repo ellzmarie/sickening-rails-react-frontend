@@ -4,15 +4,24 @@ function Header(props) {
   return (
     <>
     <nav className="header">
-      <Link to="/">
-      <div className="app-title"><p className="app-name">s i c k e n i n g h u n t i e s .</p></div>
-      </Link>
+      <div className="topnav">
+
+        <Link to="/">
+          <a class="split">sickening hunties</a>
+        </Link>
+
+        <Link to="/create">
+          <a className="right">create event </a>
+        </Link>
+
+        <Link to="#">
+          <a className="right">resources </a>
+        </Link>
+
+      </div>
     </nav>
 
-    {/* <div className="topnav">
-      <Link to="#">home</Link>
 
-    </div> */}
     </>
   )
 }

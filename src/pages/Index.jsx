@@ -2,7 +2,7 @@ import { React, useState } from "react"
 import { Link } from 'react-router-dom'
 
 function Index(props) {
-  // const [newForm, setNewForm] = useState({
+  // const [form, setForm] = useState({
   //   event_title: "",
   //   image: "",
   //   description: ""
