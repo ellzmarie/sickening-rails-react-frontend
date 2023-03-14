@@ -34,15 +34,15 @@ function Create(props) {
     return (
         <section className="create-page">
              <form onSubmit={handleSubmit}>
-                Name: <input
+                Event title: <input
                     type="text"
-                    value={newForm.name}
-                    name="name"
-                    placeholder="name"
+                    value={newForm.event_title}
+                    name="event_title"
+                    placeholder="event title"
                     required
                     onChange={handleChange}
                 />
-                Image URL:<input
+                Image url:<input
                     type="text"
                     value={newForm.image}
                     name="image"
@@ -50,11 +50,11 @@ function Create(props) {
                     required
                     onChange={handleChange}
                 />
-                Information: <input
+                Description: <input
                     type="text"
-                    value={newForm.info}
-                    name="info"
-                    placeholder="info"
+                    value={newForm.description}
+                    name="description"
+                    placeholder="description"
                     required
                     onChange={handleChange}
                 />
