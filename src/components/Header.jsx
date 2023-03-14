@@ -7,7 +7,7 @@ function Header(props) {
       <div className="topnav">
 
         <Link to="/">
-          <a class="split">sickening hunties</a>
+          <a className="split">sickening hunties</a>
         </Link>
 
         <Link to="/create">
