@@ -2,11 +2,11 @@ import { Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Index from "../pages/Index";
 import Show from "../pages/Show";
-import Create from "../pages/Create"
+import Create from "../pages/Create";
 
 function Main(props) {
   const [dragEvents, setDragEvents] = useState([])
-  const URL = "http://localhost:3002/events/"
+  const URL = "http://localhost:3002/events"
 
   const getDragEvents = async () => {
     const response = await fetch(URL)

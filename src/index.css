@@ -34,11 +34,6 @@ a {
   color: white;
 }
 
-.stock-kawaii-app-icon {
-  height: 3em;
-  margin-right: .5em;
-}
-
 .create-link {
   height: 30px;
   margin-left: auto;
@@ -78,7 +73,7 @@ section {
   flex-wrap: wrap;
 }
 
-.snowpad {
+.dragEvent {
   color:rgb(0, 0, 0);
   display: inline-flex;
   font-size: medium;
@@ -98,7 +93,7 @@ section {
   display: flex;
 }
 
-.snowpad-show {
+.dragEvent-show {
   display: flex;
   flex-direction: column ;
 }
@@ -116,7 +111,7 @@ input {
   margin-bottom: 1em;
 }
 
-.snowpad-image-show {
+.dragEvent-image {
   display: flex;
   margin-left:33%;
   max-width: 500px;
