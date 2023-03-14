@@ -13,11 +13,11 @@ function Index(props) {
       <div key={dragEvent.id} className="dragEvent">
 
         <Link to={`/event/${dragEvent.id}`}>
-          <h1>{dragEvent.name}</h1>
+          <h1>{dragEvent.event_title}</h1>
         </Link>
 
         <img className="dragEvent-image" src={dragEvent.image} alt=""/>
-        <h3>{dragEvent.event_title}</h3>
+        <h3>{dragEvent.description}</h3>
       </div>
     ))
   }
