@@ -26,14 +26,6 @@ Feel free to [click here to view the live site](). You can view additional links
 
 ---
 
-### User Stories 
-#### 1. 
-#### 2. 
-#### 3. 
-#### 4. 
-#### 5. 
----
-
 ### Wireframes 
 #### ![wireframe1](img/wireframe1.png)
 #### ![wireframe2](img/wireframe2.png)
@@ -41,7 +33,6 @@ Feel free to [click here to view the live site](). You can view additional links
 ---
 
 ### ERD Diagram 
-#### ![](img/Screen%20Shot%202023-01-20%20at%209.32.13%20PM.png)
 
 **Drag Show Events**
 
