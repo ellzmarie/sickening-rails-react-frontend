@@ -3,7 +3,8 @@ import { useParams, useNavigate } from "react-router-dom"
 
 function Show(props) {
   const { id } = useParams();
-  const dragEvent = props.dragEvents.find((dragEvent) => dragEvent.id === id)
+  console.log(props.dragEvents)
+  const dragEvent = props.dragEvents.find((dragEvent) => parseInt(dragEvent.id) === parseInt(id))
   
   let navigate = useNavigate();
 
@@ -33,15 +34,17 @@ function Show(props) {
   return (
     <div className='dragEvent-show'>
       <div className="show-info">
-        <h1>{dragEvent.event_title}</h1>
-      
-        <h3>{dragEvent.description}</h3>
+        <h1>{dragEvent?.event_title}</h1>
+        <img className="dragEvent-image-show" src={dragEvent?.image} alt={dragEvent?.event_title} />
+        <h3>{dragEvent?.description}</h3>
         <p>Delete Item <button id="delete" onClick={removeDragEvents}>
         DELETE
         </button>
         </p>
       </div>
-      <img className="dragEvent-image-show" src={dragEvent.image} alt={dragEvent.event_title} />
+      <hr />
+      <p></p>
+      {/* <img className="dragEvent-image-show" src={dragEvent?.image} alt={dragEvent?.event_title} /> */}
       <form className="show-form" onSubmit={handleSubmit}>
         Name: <input
           type="text"

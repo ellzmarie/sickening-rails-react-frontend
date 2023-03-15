@@ -12,7 +12,7 @@ function Index(props) {
     return props.dragEvents.map((dragEvent) => (
       <div key={dragEvent.id} className="dragEvent">
 
-        <Link to={`/event/${dragEvent.id}`}>
+        <Link to={`/events/${dragEvent.id}`}>
           <h1>{dragEvent.event_title}</h1>
         </Link>
 
