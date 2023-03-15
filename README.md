@@ -24,6 +24,7 @@ Feel free to [click here to view the live site](). You can view additional links
 #### Frontend Link: 
 #### Backend Link: 
 
+#### ![Trello](img/Trello.png)
 ---
 
 ### Wireframes 
