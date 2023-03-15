@@ -21,8 +21,8 @@
 Feel free to [click here to view the live site](). You can view additional links below:
 
 #### Trello BOARD: https://trello.com/b/HsiSEePZ/sickening-hunties
-#### Frontend Link: 
-#### Backend Link: 
+#### Frontend Link: https://steady-sunburst-26c1a0.netlify.app/
+#### Backend Link: https://sickening-rails-react-backend.onrender.com/events
 
 #### ![Trello](img/Trello.png)
 ---
