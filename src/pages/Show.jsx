@@ -61,6 +61,7 @@ function Show(props) {
           onChange={handleChange}
         />
        Description: <input
+          className="textBox"
           type="text"
           value={editForm.description}
           name="description"

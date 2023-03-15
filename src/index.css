@@ -178,6 +178,11 @@ input {
   align-items: center;
 }
 
+.textBox {
+  width: 300px;
+  height: 150px;
+}
+
 * {
   box-sizing: border-box;
 }
