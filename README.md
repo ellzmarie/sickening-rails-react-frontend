@@ -3,7 +3,7 @@
 
 ### Sickening Hunties is a full CRUD events application for all things drag! 
 
-#### ![sickening1](./img/loop3.png)
+#### ![sickening1](./img/index.png)
 #### ![sickening2](./img/loop3.png)
 
 ---
