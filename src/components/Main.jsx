@@ -30,7 +30,7 @@ function Main(props) {
   }
 
   const updateDragEvents = async (dragEvent, id) => {
-    await fetch(URL + id, {
+    await fetch(URL + "/" + id, {
       method: "PUT",
       headers: {
         "Content-Type": "Application/json"
@@ -42,7 +42,7 @@ function Main(props) {
   }
 
   const deleteDragEvents = async (id) => {
-    await fetch(URL + id, {
+    await fetch(URL + "/" + id, {
       method: "DELETE"
     })
 
