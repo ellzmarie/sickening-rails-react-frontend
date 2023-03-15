@@ -43,11 +43,32 @@ Feel free to [click here to view the live site](). You can view additional links
 ### ERD Diagram 
 #### ![](img/Screen%20Shot%202023-01-20%20at%209.32.13%20PM.png)
 
+**Drag Show Events**
+
+<table>
+  <th colspan="2" style="text-align:center">Artist</th>
+  <tr>
+    <td>id</td>
+    <td>primary key</td>
+  </tr>
+  <tr>
+    <td>event_title</td>
+    <td>string</td>
+  </tr>
+  <tr>
+    <td>image</td>
+    <td>string</td>
+  </tr>
+  <tr>
+    <td>description</td>
+    <td>string</td>
+</table>
+
 ---
 
 ### Future Enhancements: 
 #### 1. Ability to filter posts by locations, dates and specific events.
 #### 2. Add authentication. 
-#### 3. An expanded Menu option for drags to find specific drags in a location.
+#### 3. An expanded Menu option to find specific drags in each city/state.
 #### 4. Build a safe space for the LGBTQ+ community to connect and communicate with one another.
 #### 5. Have a heart or like button and comment section for each event.
