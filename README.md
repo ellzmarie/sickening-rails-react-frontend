@@ -18,11 +18,12 @@
 ---
 
 ### Links
-Feel free to [click here to view the live site](). You can view additional links below:
+Feel free to [click here to view the live site](https://steady-sunburst-26c1a0.netlify.app/). You can view additional links below:
 
-#### Trello BOARD: https://trello.com/b/HsiSEePZ/sickening-hunties
-#### Frontend Link: https://steady-sunburst-26c1a0.netlify.app/
-#### Backend Link: https://sickening-rails-react-backend.onrender.com/events
+#### [Trello BOARD](https://trello.com/b/HsiSEePZ/sickening-hunties)
+#### [Github Frontend](https://github.com/ellzmarie/sickening-rails-react-frontend)
+#### [Github Backend](https://github.com/ellzmarie/sickening-rails-react-backend)
+#### [Rails Backend](https://sickening-rails-react-backend.onrender.com/events)
 
 #### ![Trello](img/Trello.png)
 ---

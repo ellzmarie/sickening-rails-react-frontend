@@ -36,8 +36,8 @@ function Show(props) {
       <div className="show-info">
         <p><h1>{dragEvent?.event_title}</h1></p>
         
-        <p><img className="dragEvent-image-show" src={dragEvent?.image} alt={dragEvent?.event_title} /></p>
-        <p><h3>{dragEvent?.description}</h3></p>
+        <br><img className="dragEvent-image-show" src={dragEvent?.image} alt={dragEvent?.event_title} /></br>
+        <br><h3>{dragEvent?.description}</h3></br>
         <p></p>
         <p><button id="delete" onClick={removeDragEvents}>DELETE</button>
         </p>
